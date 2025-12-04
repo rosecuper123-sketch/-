@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>作业抽签系统</title>
+<script src="draw.js"></script>
+<style>
+    body { text-align:center; margin-top:80px; font-family:"Microsoft YaHei"; }
+    input, button { font-size:18px; padding:10px; margin-top:20px; }
+    #result { margin-top:40px; font-size:24px; display:none; }
+</style>
+</head>
+
+<body>
+
+    <h2>请输入你的学号进行抽签</h2>
+
+    <input type="text" id="studentID" placeholder="请输入学号">
+    <br>
+
+    <button onclick="startDraw()">开始抽签</button>
+
+    <div id="result"></div>
+
+</body>
+</html>
